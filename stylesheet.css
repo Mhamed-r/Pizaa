@@ -10,7 +10,7 @@ body
 } 
 .subnav
  { 
-    background-image: url(https://github.com/Mhamed-r/Pizaa.github.io/blob/main/Pizza.jpg);
+    background-image: url('https://github.com/Mhamed-r/Pizaa.github.io/blob/main/Pizza.jpg');
     background-size: cover; 
     background-position:center;
     padding: 40px; 
