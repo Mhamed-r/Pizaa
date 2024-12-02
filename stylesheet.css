@@ -90,8 +90,7 @@ button:hover
 {
 background-color: #e68a00;
 }
-@media (max-width: 768px)
- { 
+@media  screen and (max-width: 768px){
 .navbar { flex-direction: column; align-items: center; top: 10vh; right: 0; }
 .navbar a { padding: 10px; } 
 .subnav h1 { font-size: 2.5em; } 
@@ -99,9 +98,10 @@ background-color: #e68a00;
 .subnav .uparnav { width: 80vw; font-size: 1em; line-height: 3vh; }
 .subnav button { padding: 10px 15px; }
 } 
-@media (max-width: 480px) { 
+@media  screen and  (max-width: 480px) { 
 .navbar { flex-direction: column; align-items: center; top: 10vh; right: 0; }
-.navbar a { padding: 8px; font-size: 0.9em; } .subnav h1 { font-size: 2em; } 
+.navbar a { padding: 8px; font-size: 0.9em; } 
+.subnav h1 { font-size: 2em; } 
 .subnav .parnav { font-size: 1.5em; letter-spacing: 0.3vw; line-height: 5vh; } 
 .subnav .uparnav { width: 90vw; font-size: 0.9em; line-height: 2.5vh; } 
 .subnav button { padding: 8px 12px; } 
