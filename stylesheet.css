@@ -10,7 +10,7 @@ body
 } 
 .subnav
  { 
-    background-image: url(Pizza.jpg);
+    background-image: url("Pizza.jpg");
     background-size: cover; 
     background-position:center;
     padding: 40px; 
